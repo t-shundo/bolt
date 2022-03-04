@@ -87,6 +87,7 @@ body {
 .introduction__contents {
   margin-left: 140px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .introduction__title {
@@ -140,12 +141,14 @@ body {
 }
 
 .figure__text {
-  line-height: 30px;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: 1.3px;
 }
 
 .figure__button {
-  font-size: 12px;
-  padding: 14px 20px;
+  font-size: 16px;
+  padding: 14px 30px;
   background-color: #74cfae;
   color: #fff;
   display: inline-block;
