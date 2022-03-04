@@ -22,6 +22,15 @@ main {
   padding-top: 70px;
 }
 
+.green__button {
+  font-size: 12px;
+  display: inline-block;
+  color: #fff;
+  background-color: #74cfae;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -42,13 +51,7 @@ main {
 }
 
 .header__button {
-  font-size: 12px;
   padding: 14px 12px;
-  background-color: #74cfae;
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  transition: all 0.3s;
 }
 
 .header__button:hover {
@@ -66,13 +69,13 @@ main {
 .theme__main-title {
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
   color: #74cfae;
 }
 
 .theme__sub-title {
   font-size: 30px;
   color: #c0c0c0;
+  margin-top: 20px;
 }
 
 .introduction {
@@ -81,7 +84,7 @@ main {
 }
 
 .introduction__inner {
-  padding: 50px 200px 0 200px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -99,13 +102,13 @@ main {
 
 .introduction__title {
   font-size: 24px;
-  margin-bottom: 35px;
 }
 
 .introduction__text {
   font-size: 20px;
   word-break: normal;
   line-height: 30px;
+  margin-top: 35px;
 }
 
 .figure {
@@ -118,23 +121,31 @@ main {
 
 .figure__title {
   font-size: 24px;
-  margin-bottom: 40px;
 }
 
 .figure__box {
   display: flex;
-  margin-bottom: 90px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.figure__box li {
+  margin-left: 100px;
 }
 
 .figure__box li:nth-child(n+4) {
   margin-top: 80px;
 }
 
+.figure__box li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
 .figure__box a {
   opacity: 0.7;
   transition: all 0.3s;
+  display: block;
+  font-size: 0;
 }
 
 .figure__box a:hover {
@@ -143,26 +154,20 @@ main {
 
 .figure__push_box {
   display: flex;
-  padding: 0 140px 0 70px;
+  padding: 0 150px 0 80px;
   align-items: flex-start;
+  margin-top: 90px;
 }
 
 .figure__text {
   line-height: 25px;
   font-size: 20px;
-  letter-spacing: 1.3px;
 }
 
 .figure__button {
-  font-size: 16px;
-  padding: 14px 30px;
-  background-color: #74cfae;
-  color: #fff;
-  display: inline-block;
+  padding: 14px 20px;
   margin-left: 90px;
   white-space: nowrap;
-  transition: all 0.3s;
-  text-decoration: none;
 }
 
 .figure__button:hover {
@@ -179,17 +184,26 @@ main {
 }
 
 .circle__title {
-  margin-bottom: 50px;
   font-size: 24px;
 }
 
 .circle__box {
   display: flex;
-  justify-content: space-around;
+  margin-top: 50px;
+  justify-content: center;
 }
 
-.circle__box img {
-  margin-bottom: 10px;
+.circle__box_item {
+  margin-left: 180px;
+}
+
+.circle__box_item:first-child {
+  margin-left: 0;
+}
+
+.circle__box_item p {
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 .navigation {
