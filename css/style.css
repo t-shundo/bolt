@@ -4,8 +4,22 @@ body {
   font-family: 'Lato',sans-serif;
 }
 
-.heading {
+li {
+  list-style: none;
+}
+
+.Raleway {
   font-family: 'Raleway', sans-serif;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  padding-top: 70px;
 }
 
 .header {
@@ -15,12 +29,6 @@ body {
   background-color: #fff;
   width: 100%;
   z-index: 1;
-}
-
-.inner {
-  width: 1100px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .header__inner {
@@ -40,11 +48,11 @@ body {
   color: #fff;
   display: inline-block;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .header__button:hover {
   color: #333;
-  transition: 0.3s;
 }
 
 .theme {
@@ -53,7 +61,6 @@ body {
 
 .theme__inner {
   padding: 250px 0px;
-  text-align: center;
 }
 
 .theme__main-title {
@@ -121,17 +128,17 @@ body {
   justify-content: space-between;
 }
 
-.figure__box a:nth-child(n+4) {
+.figure__box li:nth-child(n+4) {
   margin-top: 80px;
 }
 
 .figure__box a {
   opacity: 0.7;
+  transition: all 0.3s;
 }
 
 .figure__box a:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .figure__push_box {
@@ -154,12 +161,12 @@ body {
   display: inline-block;
   margin-left: 90px;
   white-space: nowrap;
+  transition: all 0.3s;
   text-decoration: none;
 }
 
 .figure__button:hover {
   color: #333;
-  transition: 0.3s;
 }
 
 .circle {
@@ -201,11 +208,11 @@ body {
   color: #74cfae;
   text-decoration: none;
   line-height: 70px;
+  transition: all 0.3s;
 }
 
 .navigation__inner a:hover {
   background-color: #fff;
-  transition: 0.3s;
 }
 
 .footer {
@@ -215,9 +222,6 @@ body {
 .footer__inner {
   padding: 20px 0 25px;
   display: flex;
-  justify-content: flex-end;
-}
-
-.footer__inner p {
   color: #fff;
+  justify-content: flex-end;
 }
