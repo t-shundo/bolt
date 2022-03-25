@@ -272,7 +272,7 @@ main {
     margin-top: 0;
   }
 
-  .figure__box li:nth-child(4n) {
+  .figure__box li:nth-child(3n+4) {
     margin-top: 80px;
   }
   
